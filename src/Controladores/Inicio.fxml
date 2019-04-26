@@ -3,14 +3,15 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorInicio">
+<AnchorPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorInicio">
    <children>
-      <ImageView fx:id="poke25" fitHeight="472.0" fitWidth="653.0">
+      <ImageView fx:id="poke250" fitHeight="472.0" fitWidth="653.0">
          <image>
             <Image url="@../Imagenes/fondo.jpg" />
          </image>
@@ -47,11 +48,13 @@
       <ChoiceBox fx:id="poke23" layoutX="497.0" layoutY="318.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <ChoiceBox fx:id="poke22" layoutX="497.0" layoutY="283.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <ChoiceBox fx:id="poke24" layoutX="497.0" layoutY="355.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
-      <ChoiceBox layoutX="497.0" layoutY="391.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
+      <ChoiceBox fx:id="poke25" layoutX="497.0" layoutY="391.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <ChoiceBox fx:id="poke26" layoutX="497.0" layoutY="427.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <Button fx:id="jugar" layoutX="289.0" layoutY="360.0" mnemonicParsing="false" onAction="#jugar" style="-fx-background-color: White;" text="Jugar">
          <font>
             <Font name="Arkitech Medium" size="20.0" />
          </font></Button>
+      <TextField fx:id="jugador1" layoutX="235.0" layoutY="245.0" prefHeight="27.0" prefWidth="108.0" />
+      <TextField fx:id="jugador2" layoutX="381.0" layoutY="301.0" prefHeight="27.0" prefWidth="108.0" />
    </children>
 </AnchorPane>

@@ -1,5 +1,8 @@
 package Controladores;
 
+
+import javafx.scene.image.Image;
+
 public class Pokemon {
     private int idPoke;
     private int tipoPoke;
@@ -10,8 +13,9 @@ public class Pokemon {
     private int velocidad;
     private boolean estado;
     private int tipo;
+    private Image imagen;
 
-    public Pokemon(String nombre,int puntoVida,int ataque,int defensa,int velocidad,boolean estado,int tipo){
+    public Pokemon(String nombre,int idPoke,int puntoVida,int ataque,int defensa,int velocidad,boolean estado,int tipo,Image imagen){
         this.idPoke=idPoke;
         this.nombre = nombre;
         this.puntoVida = puntoVida;
@@ -20,6 +24,7 @@ public class Pokemon {
         this.velocidad = velocidad;
         this.estado = estado;
         this.tipo = tipo;
+        this.imagen = imagen;
     }
     public void recibirDano(int dano){
         this.puntoVida = this.puntoVida - dano;
@@ -32,6 +37,9 @@ public class Pokemon {
             estado = false;
             return false;
         }
+    }
+    public String getNombre(){
+        return this.nombre;
     }
     public void pocionVida(int vida){
         this.puntoVida = this.puntoVida + vida;

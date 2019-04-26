@@ -17,10 +17,6 @@ public class Juego extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        //File file = new File("/Users/samuelarturogarridosanchez/Downloads/Space-War-master/src/com/company/moon.mp3");
-        //Media media = new Media(file.toURI().toString());
-        //MediaPlayer mediaPlayer = new MediaPlayer(media);
-
         try {
             root = (AnchorPane) FXMLLoader.load(getClass().getResource("Rooting.fxml"));
             grid.add((AnchorPane)FXMLLoader.load(getClass().getResource("Inicio.fxml")));
