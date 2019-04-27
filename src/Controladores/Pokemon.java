@@ -29,7 +29,7 @@ public class Pokemon {
     public void recibirDano(int dano){
         this.puntoVida = this.puntoVida - dano;
     }
-    public boolean estaVivo(int vida){
+    public boolean estaVivo(){
         if(this.puntoVida!=0) {
             estado = true;
             return true;
@@ -40,6 +40,10 @@ public class Pokemon {
     }
     public String getNombre(){
         return this.nombre;
+    }
+
+    public Image getImagen() {
+        return imagen;
     }
     public void pocionVida(int vida){
         this.puntoVida = this.puntoVida + vida;

@@ -4,6 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
 import javafx.scene.image.ImageView;
@@ -29,8 +30,8 @@ import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 
 public class ControladorInicio implements Initializable {
-    private String nombre1;
-    private String nombre2;
+    public static String nombre1;
+    public static String nombre2;
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -83,12 +84,12 @@ public class ControladorInicio implements Initializable {
     public void salir(ActionEvent actionEvent){
         System.exit(0);
     }
-
+    static Jugador pl1;
+    static Jugador pl2;
     public void jugar(ActionEvent actionEvent){
-
+        ArrayList<Pokemon> pokesj1 = new ArrayList<Pokemon>(5);
+        ArrayList<Pokemon> pokesj2 = new ArrayList<Pokemon>(5);
         try {
-            ArrayList<Pokemon> pokesj1 = new ArrayList<Pokemon>();
-            ArrayList<Pokemon> pokesj2 = new ArrayList<Pokemon>();
             nombre1 = jugador1.getText();
             nombre2 = jugador2.getText();
             pokesj1.add(pk.pokemonsHash.get(poke11.getValue().toString()));
@@ -105,19 +106,24 @@ public class ControladorInicio implements Initializable {
             pokesj2.add(pk.pokemonsHash.get(poke25.getValue().toString()));
             pokesj2.add(pk.pokemonsHash.get(poke26.getValue().toString()));
 
+            Jugador jug1 = new Jugador(nombre1,pokesj1);
+            Jugador jug2 = new Jugador(nombre2,pokesj2);
 
-            Jugador j1 = new Jugador(nombre1,pokesj1);
-            Jugador j2 = new Jugador(nombre2,pokesj2);
-
+            ControladorPelea.j1 = jug1;
+            ControladorPelea.j2 = jug2;
 
             Juego.root.getChildren().remove(Juego.grid.get(0));
-            Juego.root.getChildren().add(Juego.grid.get(1));
-        }catch (java.lang.NullPointerException e){
+            AnchorPane pn = (AnchorPane)FXMLLoader.load(getClass().getResource("Pelea.fxml"));
+            Juego.root.getChildren().add(pn);
+
+
+        }catch (java.lang.NullPointerException e) {
             Alert alert2 = new Alert(Alert.AlertType.WARNING, "Por favor, rellena todos los campos");
             alert2.showAndWait();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
-
     public String getNombre1() {
         return nombre1;
     }

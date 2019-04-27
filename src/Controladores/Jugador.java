@@ -11,4 +11,12 @@ public class Jugador {
         this.nombre = nombre;
         this.pokes = pokemons;
     }
+
+    public ArrayList<Pokemon> getPokes() {
+        return pokes;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
 }

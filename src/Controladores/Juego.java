@@ -14,14 +14,14 @@ public class Juego extends Application {
     static AnchorPane root;
     static List<AnchorPane> grid = new ArrayList<AnchorPane>();
     private static int idx_cur = 0;
+    static Stage PRIMARIA;
     @Override
     public void start(Stage primaryStage) throws Exception {
-
+        PRIMARIA = primaryStage;
         try {
             root = (AnchorPane) FXMLLoader.load(getClass().getResource("Rooting.fxml"));
             grid.add((AnchorPane)FXMLLoader.load(getClass().getResource("Inicio.fxml")));
-            grid.add((AnchorPane)FXMLLoader.load(getClass().getResource("Pelea.fxml")));
-
+            //grid.add((AnchorPane)FXMLLoader.load(getClass().getResource("Pelea.fxml")));
             root.getChildren().add(grid.get(0));
             Scene scn = new Scene(root, 653, 472);
             primaryStage.setScene(scn);
