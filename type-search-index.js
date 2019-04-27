@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"Controladores","l":"ControladorInicio"},{"p":"Controladores","l":"ControladorPelea"},{"p":"Controladores","l":"Juego"},{"p":"Controladores","l":"Jugador"},{"p":"Controladores","l":"Main"},{"p":"Controladores","l":"Pocion"},{"p":"Controladores","l":"Pokemon"},{"p":"Controladores","l":"Pokemones"}]

@@ -206,7 +206,7 @@ public class ControladorPelea implements Initializable {
         Pokemon defensa;
         atacante = j2.pokFind.get(pokeDisp2.getValue().toString());
         defensa = j1.pokFind.get(pokeDisp1.getValue().toString());
-        if((double)defensa.getPuntoVida()-((double)atacante.getAtaque())*0.8*multiplicador(atacante,defensa)+(double)defensa.getDefensa()<=0){muertes2++;}
+        if((double)defensa.getPuntoVida()-(double)atacante.getAtaque()*0.8*multiplicador(defensa,atacante)+(double)defensa.getDefensa()<=0){muertes2++;}
         defensa.setPuntoVida((double)defensa.getPuntoVida()-((double)atacante.getAtaque())*0.8*multiplicador(atacante,defensa)+(double)defensa.getDefensa());
         System.out.println(defensa.getPuntoVida());
         progresos();
