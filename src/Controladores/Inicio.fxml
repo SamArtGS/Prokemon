@@ -2,21 +2,20 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorInicio">
+<AnchorPane id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ControladorInicio">
    <children>
       <ImageView fx:id="poke250" fitHeight="472.0" fitWidth="653.0">
          <image>
             <Image url="@../Imagenes/fondo.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="36.0" fitWidth="124.0" layoutX="518.0" layoutY="14.0">
+      <ImageView fitHeight="36.0" fitWidth="124.0" layoutX="265.0" layoutY="63.0">
          <image>
             <Image url="@../Imagenes/poke.png" />
          </image>
@@ -25,19 +24,6 @@
          <font>
             <Font name="Arkitech Light" size="13.0" />
          </font></Button>
-      <ScrollPane layoutX="93.0" layoutY="67.0" prefHeight="166.0" prefWidth="522.0" style="-fx-background-color: transparenttransparent;">
-        <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="146.0" prefWidth="843.0" style="-fx-background-color: transparenttransparent;">
-               <children>
-                  <ImageView fitHeight="55.0" fitWidth="69.0" layoutX="8.0" layoutY="7.0">
-                     <image>
-                        <Image url="@../Imagenes/poke3t.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-        </content>
-      </ScrollPane>
       <ChoiceBox fx:id="poke11" layoutX="137.0" layoutY="245.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <ChoiceBox fx:id="poke13" layoutX="137.0" layoutY="314.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
       <ChoiceBox fx:id="poke12" layoutX="137.0" layoutY="279.0" prefHeight="27.0" prefWidth="83.0" style="-fx-background-color: white;" />
@@ -56,5 +42,19 @@
          </font></Button>
       <TextField fx:id="jugador1" layoutX="235.0" layoutY="245.0" prefHeight="27.0" prefWidth="108.0" />
       <TextField fx:id="jugador2" layoutX="381.0" layoutY="301.0" prefHeight="27.0" prefWidth="108.0" />
+      <ImageView fitHeight="121.0" fitWidth="124.0" layoutX="47.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/poke3t.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="130.0" layoutX="264.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/proteco.png" />
+         </image></ImageView>
+      <ImageView fitHeight="114.0" fitWidth="74.0" layoutX="523.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/poke3a.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

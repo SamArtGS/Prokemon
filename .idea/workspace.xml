@@ -33,16 +33,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/ControladorInicio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/ControladorInicio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/ControladorPelea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/ControladorPelea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Juego.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Juego.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Inicio.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Jugador.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pelea.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pelea.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pokemones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pokemon/Controladores/Pokemones.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/ControladorInicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/ControladorInicio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/ControladorPelea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/ControladorPelea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controladores/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/Inicio.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Inicio.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/Jugador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Jugador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/Pelea.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Pelea.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controladores/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controladores/Pokemones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controladores/Pokemones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrebeShell-master/Copia de login.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrebeShell-master/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PrebeShell-master/arbol.sh" beforeDir="false" />
@@ -143,19 +145,25 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5012366">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Pokemon.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
-                  <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
+                <state relative-caret-position="450">
+                  <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
                   <folding>
-                    <element signature="e#972#973#0" expanded="true" />
-                    <element signature="e#1005#1006#0" expanded="true" />
-                    <element signature="e#1153#1154#0" expanded="true" />
-                    <element signature="e#1182#1183#0" expanded="true" />
+                    <element signature="e#848#849#0" expanded="true" />
+                    <element signature="e#886#887#0" expanded="true" />
+                    <element signature="e#1251#1252#0" expanded="true" />
+                    <element signature="e#1279#1280#0" expanded="true" />
+                    <element signature="e#1329#1330#0" expanded="true" />
+                    <element signature="e#1376#1377#0" expanded="true" />
+                    <element signature="e#1320#1321#0" expanded="true" />
+                    <element signature="e#1356#1357#0" expanded="true" />
+                    <element signature="e#1401#1402#0" expanded="true" />
+                    <element signature="e#1437#1438#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -164,8 +172,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Jugador.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#339#340#0" expanded="true" />
@@ -180,20 +188,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Pokemones.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="100">
-                  <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+                <state relative-caret-position="324">
+                  <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Controladores/Pocion.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -201,8 +200,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="15">
+                  <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -210,55 +209,40 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Juego.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-69">
-                  <caret line="552" selection-start-line="552" selection-end-line="552" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Rooting.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder" />
               <provider selected="true" editor-type-id="text-editor" />
+              <provider editor-type-id="JavaFX-Scene-Builder" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorInicio.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="245">
-                  <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+                <state relative-caret-position="328">
+                  <caret line="123" column="66" selection-start-line="123" selection-start-column="66" selection-end-line="123" selection-end-column="66" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#968#969#0" expanded="true" />
-                    <element signature="e#998#999#0" expanded="true" />
-                    <element signature="e#7216#7225#0" expanded="true" />
-                    <element signature="e#7277#7286#0" expanded="true" />
-                    <element signature="e#7577#7578#0" expanded="true" />
-                    <element signature="e#7607#7608#0" expanded="true" />
-                    <element signature="e#7641#7642#0" expanded="true" />
-                    <element signature="e#7671#7672#0" expanded="true" />
+                    <element signature="e#8563#8579#0" expanded="true" />
+                    <element signature="e#8643#8659#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorPelea.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+                <state relative-caret-position="115">
+                  <caret line="307" column="41" selection-start-line="307" selection-start-column="41" selection-end-line="307" selection-end-column="41" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -269,23 +253,44 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Pelea.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder" />
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="287">
-                  <caret line="53" column="105" selection-start-line="53" selection-start-column="105" selection-end-line="53" selection-end-column="105" />
+                <state relative-caret-position="866">
+                  <caret line="58" column="137" selection-start-line="58" selection-start-column="137" selection-end-line="58" selection-end-column="137" />
                 </state>
               </provider>
+              <provider editor-type-id="JavaFX-Scene-Builder" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Controladores/Inicio.fxml">
-              <provider editor-type-id="JavaFX-Scene-Builder" />
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-495">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="197">
+                  <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+                </state>
+              </provider>
+              <provider editor-type-id="JavaFX-Scene-Builder" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Controladores/Pokemones.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="361">
+                  <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Controladores/Pocion.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -316,21 +321,24 @@
         <option value="$PROJECT_DIR$/src/Controladores/Pocion.java" />
         <option value="$PROJECT_DIR$/src/VistasFXML/Inicio.fxml" />
         <option value="$PROJECT_DIR$/src/Controladores/Main.java" />
-        <option value="$PROJECT_DIR$/src/Controladores/Inicio.fxml" />
-        <option value="$PROJECT_DIR$/src/Controladores/Pokemones.java" />
-        <option value="$PROJECT_DIR$/src/Controladores/Jugador.java" />
         <option value="$PROJECT_DIR$/src/Controladores/Juego.java" />
+        <option value="$PROJECT_DIR$/src/Controladores/Inicio.fxml" />
+        <option value="$PROJECT_DIR$/src/Controladores/Pelea.java" />
+        <option value="$PROJECT_DIR$/src/Controladores/Jugador.java" />
         <option value="$PROJECT_DIR$/src/Controladores/ControladorInicio.java" />
-        <option value="$PROJECT_DIR$/src/Controladores/Pokemon.java" />
+        <option value="$PROJECT_DIR$/src/Controladores/Pokemones.java" />
         <option value="$PROJECT_DIR$/src/Controladores/Pelea.fxml" />
+        <option value="$PROJECT_DIR$/src/Controladores/Pokemon.java" />
         <option value="$PROJECT_DIR$/src/Controladores/ControladorPelea.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="788" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="720" />
+    <option name="y" value="23" />
+    <option name="width" value="720" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -341,6 +349,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -370,7 +379,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,25 +530,26 @@
       <workItem from="1555964617601" duration="586000" />
       <workItem from="1556118820660" duration="14473000" />
       <workItem from="1556310191204" duration="438000" />
-      <workItem from="1556311003100" duration="19724000" />
+      <workItem from="1556311003100" duration="22773000" />
+      <workItem from="1556359097339" duration="8676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50572000" />
+    <option name="totallyTimeSpent" value="62297000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21101573" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.13233191" />
       <window_info id="Structure" order="1" weight="0.5147493" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3313253" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33373493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,85 +637,52 @@
     <entry file="file://$PROJECT_DIR$/src/Imagenes/poke1a.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/Rooting.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
+        <state relative-caret-position="7080">
           <caret line="552" selection-start-line="552" selection-end-line="552" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/Inicio.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Rooting.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controladores/Pokemones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="324">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/Pelea.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="53" column="105" selection-start-line="53" selection-start-column="105" selection-end-line="53" selection-end-column="105" />
+        <state relative-caret-position="205">
+          <caret line="379" column="34" lean-forward="true" selection-start-line="379" selection-start-column="34" selection-end-line="379" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorPelea.java">
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Pelea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorInicio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#7216#7225#0" expanded="true" />
-            <element signature="e#7277#7286#0" expanded="true" />
-            <element signature="e#7577#7578#0" expanded="true" />
-            <element signature="e#7607#7608#0" expanded="true" />
-            <element signature="e#7641#7642#0" expanded="true" />
-            <element signature="e#7671#7672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/Juego.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controladores/Jugador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
@@ -717,29 +693,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controladores/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Inicio.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="197">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Juego.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorInicio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="123" column="66" selection-start-line="123" selection-start-column="66" selection-end-line="123" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8563#8579#0" expanded="true" />
+            <element signature="e#8643#8659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controladores/Pelea.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="58" column="137" selection-start-line="58" selection-start-column="137" selection-end-line="58" selection-end-column="137" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controladores/Pocion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controladores/Pokemon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="450">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
-            <element signature="e#972#973#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controladores/ControladorPelea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="307" column="41" selection-start-line="307" selection-start-column="41" selection-end-line="307" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

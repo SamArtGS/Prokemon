@@ -48,15 +48,15 @@
       <ProgressBar fx:id="progresAct1" layoutX="151.0" layoutY="408.0" prefHeight="8.0" prefWidth="163.0" progress="0.0" />
       <ProgressBar fx:id="progresAct2" layoutX="327.0" layoutY="408.0" prefHeight="8.0" prefWidth="163.0" progress="0.0" />
       <Button fx:id="ataque" layoutX="53.0" layoutY="325.0" mnemonicParsing="false" text="Atacar" onAction="#atacarP1"/>
-      <Button layoutX="25.0" layoutY="360.0" mnemonicParsing="false" text="Pócima : + Vida" />
-      <Button layoutX="19.0" layoutY="396.0" mnemonicParsing="false" text="Pócima : +Ataque" />
-      <ChoiceBox fx:id="pokeDisp1" layoutX="158.0" layoutY="418.0" prefHeight="14.0" prefWidth="146.0" onAction="#selected"/>
+      <Button fx:id="pocimaVida1" layoutX="25.0" layoutY="360.0" mnemonicParsing="false" text="Pócima : + Vida" onAction="#vida1"/>
+      <Button fx:id="pocimaAtaque1" layoutX="19.0" layoutY="396.0" mnemonicParsing="false" text="Pócima : +Ataque" onAction="#ataque1"/>
+      <ChoiceBox fx:id="pokeDisp1" layoutX="158.0" layoutY="418.0" prefHeight="14.0" prefWidth="146.0" onAction="#selected" />
       <ChoiceBox fx:id="pokeDisp2" layoutX="334.0" layoutY="418.0" prefWidth="150.0" onAction="#selected2"/>
-      <Button layoutX="15.0" layoutY="432.0" mnemonicParsing="false" text="Pócima : +Defensa" />
+      <Button fx:id="pocimaDefensa1" layoutX="15.0" layoutY="432.0" mnemonicParsing="false" text="Pócima : +Defensa" onAction="#defensa1" />
       <Button fx:id="ataque1" layoutX="543.0" layoutY="320.0" mnemonicParsing="false" text="Atacar" onAction="#atacarP2"/>
-      <Button layoutX="515.0" layoutY="355.0" mnemonicParsing="false" text="Pócima : + Vida" />
-      <Button layoutX="509.0" layoutY="391.0" mnemonicParsing="false" text="Pócima : +Ataque" />
-      <Button layoutX="505.0" layoutY="427.0" mnemonicParsing="false" text="Pócima : +Defensa" />
+      <Button fx:id="pocimaVida2" layoutX="515.0" layoutY="355.0" mnemonicParsing="false" text="Pócima : + Vida" onAction="#vida2"/>
+      <Button fx:id="pocimaAtaque2" layoutX="509.0" layoutY="391.0" mnemonicParsing="false" text="Pócima : +Ataque" onAction="#ataque2"/>
+      <Button fx:id="pocimaDefensa2" layoutX="505.0" layoutY="427.0" mnemonicParsing="false" text="Pócima : +Defensa" onAction="#defensa2"/>
       <Button layoutX="19.0" layoutY="23.0" mnemonicParsing="false" text="Atrás" onAction="#atras"/>
    </children>
 </AnchorPane>

@@ -8,25 +8,25 @@ import java.util.Hashtable;
 
 public class Pokemones{
     //pokemónEléctricos
-    Pokemon poke1 = new Pokemon("Squirle",150,200,200,100,100,true,1, new Image("Imagenes/poke1a.png"));
-    Pokemon poke2 = new Pokemon("Yvysaur", 150,200,200,100,100,true,2,new Image("Imagenes/poke1e.png"));
-    Pokemon poke3 = new Pokemon("Pikachu",150,200,200,100,100,true,3,new Image("Imagenes/poke1f.png"));
-    Pokemon poke4 = new Pokemon("Yvysaur", 150,200,200,100,100,true,4,new Image("Imagenes/poke1t.png"));
+    Pokemon poke1 = new Pokemon("Squirle",150,200,20,10,100,true,1, new Image("Imagenes/poke1a.png"));
+    Pokemon poke2 = new Pokemon("Yvysaur", 150,200,20,10,100,true,2,new Image("Imagenes/poke1e.png"));
+    Pokemon poke3 = new Pokemon("Pikachu",150,200,20,10,100,true,3,new Image("Imagenes/poke1f.png"));
+    Pokemon poke4 = new Pokemon("Blacer", 150,200,20,10,100,true,4,new Image("Imagenes/poke1t.png"));
 
-    Pokemon poke5 = new Pokemon("Charmander",150,200,200,100,100,true,1,new Image("Imagenes/poke2a.png"));
-    Pokemon poke6 = new Pokemon("Evvee", 150,200,200,100,100,true,2,new Image("Imagenes/poke2f.png"));
-    Pokemon poke7 = new Pokemon("Bobufed",150,200,200,100,100,true,3,new Image("Imagenes/poke2t.png"));
-    Pokemon poke8 = new Pokemon("TNOSS", 150,200,200,100,100,true,4,new Image("Imagenes/poke3a.png"));
+    Pokemon poke5 = new Pokemon("Charmander",150,200,20,10,100,true,1,new Image("Imagenes/poke2a.png"));
+    Pokemon poke6 = new Pokemon("Evvee", 150,200,20,10,100,true,2,new Image("Imagenes/poke2f.png"));
+    Pokemon poke7 = new Pokemon("Bobufed",150,200,20,10,100,true,3,new Image("Imagenes/poke2t.png"));
+    Pokemon poke8 = new Pokemon("TNOSS", 150,200,20,10,100,true,4,new Image("Imagenes/poke3a.png"));
 
-    Pokemon poke9 = new Pokemon("Avenger",150,200,200,100,100,true,1,new Image("Imagenes/poke3f.png"));
-    Pokemon poke10 = new Pokemon("No C", 150,200,200,100,100,true,2,new Image("Imagenes/poke3t.png"));
-    Pokemon poke11 = new Pokemon("Profesor ",150,200,200,100,100,true,3,new Image("Imagenes/poke4a.png"));
-    Pokemon poke12 = new Pokemon("Ash", 150,200,200,100,100,true,4,new Image("Imagenes/poke4f.png"));
+    Pokemon poke9 = new Pokemon("Avenger",150,200,20,10,100,true,1,new Image("Imagenes/poke3f.png"));
+    Pokemon poke10 = new Pokemon("NoC", 150,200,20,10,100,true,2,new Image("Imagenes/poke3t.png"));
+    Pokemon poke11 = new Pokemon("Profesor ",150,200,20,10,100,true,3,new Image("Imagenes/poke4a.png"));
+    Pokemon poke12 = new Pokemon("Ash", 150,200,20,10,100,true,4,new Image("Imagenes/poke4f.png"));
 
-    Pokemon poke13 = new Pokemon("Patricio",150,200,200,100,100,true,1,new Image("Imagenes/poke5a.png"));
-    Pokemon poke14 = new Pokemon("terriermon", 150,200,200,100,100,true,2,new Image("Imagenes/poke6a.png"));
-    Pokemon poke15 = new Pokemon("aquamon",150,200,200,100,100,true,3,new Image("Imagenes/poke6a.png"));
-    Pokemon poke16 = new Pokemon("vergamon", 150,200,200,100,100,true,4,new Image("Imagenes/poke6a.png"));
+    Pokemon poke13 = new Pokemon("Patricio",150,200,20,10,100,true,1,new Image("Imagenes/poke5a.png"));
+    Pokemon poke14 = new Pokemon("terriermon", 150,200,20,10,100,true,2,new Image("Imagenes/poke6a.png"));
+    Pokemon poke15 = new Pokemon("aquamon",150,200,20,10,100,true,3,new Image("Imagenes/poke6a.png"));
+    Pokemon poke16 = new Pokemon("vergamon", 150,200,20,10,100,true,4,new Image("Imagenes/poke6a.png"));
     public Pokemones(){
 
     }
